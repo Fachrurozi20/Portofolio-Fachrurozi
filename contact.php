@@ -20,14 +20,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Ganti dengan host SMTP Anda
         $mail->SMTPAuth = true;
-        $mail->Username = 'captrieka@gmail.com'; // Ganti dengan email SMTP Anda
-        $mail->Password = 'qnir ffah lqoc beal'; // Ganti dengan kata sandi aplikasi Anda
+        $mail->Username = '#####@gmail.com'; // Ganti dengan email SMTP Anda
+        $mail->Password = '######'; // Ganti dengan kata sandi aplikasi Anda
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Penerima
         $mail->setFrom($email, $name);
-        $mail->addAddress('captrieka@gmail.com'); // Ganti dengan alamat email tujuan Anda
+        $mail->addAddress('#####@gmail.com'); // Ganti dengan alamat email tujuan Anda
 
         // Konten email
         $mail->isHTML(true);
