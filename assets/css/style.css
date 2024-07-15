@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.navbar {
+  transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: #343a40 !important;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #343a40;
+}
+
+.footer .footer-icons a {
+  color: #fff;
+  font-size: 1.5em;
+}
